@@ -1,0 +1,10 @@
+.nav {
+  display: flex;
+  border: 1px solid red;
+}
+
+.logo {
+  font-size: 40px;
+  color: #bf1e2e;
+  text-decoration: none;
+}
