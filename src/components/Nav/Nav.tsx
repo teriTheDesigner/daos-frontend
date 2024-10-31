@@ -12,7 +12,7 @@ export default function Nav() {
   return (
     <nav className={styles.nav}>
       <div className={styles.logoDiv}>
-        <a className={styles.logo} href="/">
+        <a className={`${styles.logo} oswald-medium`} href="/">
           Musik Samspil
         </a>
         <p>Skabt af DAOS - Dansk Amatørorkester Samvirke</p>

@@ -1,7 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap");
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
+
+  --grey-100: #f9f9f9;
+  --grey-200: #f0f0f0;
+  --grey-300: #dddddd;
+  --grey-400: #777777;
+  --dark-blue: #353a5d;
+  --dark-blue-hover: #4a4e6e;
+  --dark-red: #bf1e2e;
+  --yellow: #ff9b19;
+  --blue-badge-text: #4d1fe5;
+  --blue-badge-bg: #4d1fe522;
+  --green-badge-text: #007737;
+  --green-badge-bg: #0077382c;
 }
+
+/* Classes for fonts with different weights */
+.oswald-light {
+  font-family: "Oswald", sans-serif;
+  font-weight: 200;
+}
+
+.oswald-regular {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+}
+
+.oswald-medium {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+}
+
+.oswald-bold {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+}
+
+.montserrat-thin {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+}
+
+.montserrat-light {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+.montserrat-regular {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.montserrat-medium {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.montserrat-semibold {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.montserrat-bold {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.montserrat-extrabold {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+}
+
+.montserrat-black {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+
+/* --------------------------------------- */
+
 body {
   margin: 0;
 }
