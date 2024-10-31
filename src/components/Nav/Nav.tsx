@@ -15,17 +15,22 @@ export default function Nav() {
         <a className={`${styles.logo} oswald-medium`} href="/">
           Musik Samspil
         </a>
-        <p>Skabt af DAOS - Dansk Amatørorkester Samvirke</p>
+        <p className={`${styles.logoText} montserrat-regular`}>
+          Skabt af DAOS - Dansk Amatørorkester Samvirke
+        </p>
       </div>
-      <div>
-        <a href="/opslag">Opslag</a>
-        <a href="/profil">Profil</a>
+      <div className={styles.navLinksDiv}>
+        <a className={`${styles.navLink} montserrat-bold`} href="/opslag">
+          Opslag
+        </a>
+        <a className={`${styles.navLink} montserrat-bold`} href="/profil">
+          Profil
+        </a>
         <PrimaryButton
           buttonText="Opret bruger"
           color="blue"
           onClick={CreateUser}
         />
-
         <PrimaryButton buttonText="Log ind" color="white" onClick={LogIn} />
       </div>
     </nav>
