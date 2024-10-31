@@ -79,8 +79,19 @@
   font-weight: 900;
 }
 
-/* --------------------------------------- */
+/* ----------------- Layout ---------------------- */
 
 body {
   margin: 0;
+}
+
+.outer-grid {
+  display: grid;
+  grid-template-columns: 7% 1fr 7%;
+}
+
+.inner-grid {
+  grid-column: 2;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
 }

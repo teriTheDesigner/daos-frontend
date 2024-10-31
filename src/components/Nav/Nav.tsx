@@ -29,9 +29,15 @@ export default function Nav() {
         <PrimaryButton
           buttonText="Opret bruger"
           color="blue"
+          size="medium"
           onClick={CreateUser}
         />
-        <PrimaryButton buttonText="Log ind" color="white" onClick={LogIn} />
+        <PrimaryButton
+          buttonText="Log ind"
+          color="white"
+          size="medium"
+          onClick={LogIn}
+        />
       </div>
     </nav>
   );

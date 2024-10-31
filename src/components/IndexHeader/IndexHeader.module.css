@@ -1,0 +1,17 @@
+.h1 {
+  font-size: 50px;
+  color: var(--dark-red);
+}
+
+.text {
+  grid-column: 1/7;
+}
+
+.img {
+  grid-column: 8/13;
+}
+
+.header {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
