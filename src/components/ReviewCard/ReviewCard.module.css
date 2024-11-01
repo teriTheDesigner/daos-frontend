@@ -1,11 +1,9 @@
 .card {
   background-color: white;
   border-radius: 10px;
-  width: 330px;
   height: 370px;
   color: var(--dark-blue);
   padding: 2rem;
-
   display: flex;
   flex-direction: column;
 }
