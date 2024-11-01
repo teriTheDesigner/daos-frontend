@@ -4,6 +4,7 @@ import Nav from "./components/Nav/Nav";
 import UserReviews from "./components/UserReviews/UserReviews";
 
 import LatestPostsSection from "./components/LatestPostsSection/LatestPostsSection";
+import FeedbackBanner from "./components/FeedbackBanner/FeedbackBanner";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <IndexHeader />
       <UserReviews />
       <LatestPostsSection />
+      <FeedbackBanner />
     </>
   );
 }
