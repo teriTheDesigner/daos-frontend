@@ -20,11 +20,10 @@ export default function ReviewCard({
           className={`${styles.reviewText} montserrat-light
         `}
         >
-          {" "}
           <span className={`${styles.quotes} ${styles.quotesTop}oswald-medium`}>
             “
           </span>
-          {reviewText}{" "}
+          {reviewText}
           <span
             className={`${styles.quotes} ${styles.quotesBottom}oswald-medium`}
           >
