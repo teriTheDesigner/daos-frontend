@@ -5,6 +5,7 @@ import UserReviews from "./components/UserReviews/UserReviews";
 
 import LatestPostsSection from "./components/LatestPostsSection/LatestPostsSection";
 import FeedbackBanner from "./components/FeedbackBanner/FeedbackBanner";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <UserReviews />
       <LatestPostsSection />
       <FeedbackBanner />
+      <Footer />
     </>
   );
 }
