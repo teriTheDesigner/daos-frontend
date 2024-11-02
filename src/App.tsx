@@ -6,11 +6,13 @@ import UserReviews from "./components/UserReviews/UserReviews";
 import LatestPostsSection from "./components/LatestPostsSection/LatestPostsSection";
 import FeedbackBanner from "./components/FeedbackBanner/FeedbackBanner";
 import Footer from "./components/Footer/Footer";
+import CreateUserForm from "./components/CreateUserForm/CreateUserForm";
 
 function App() {
   return (
     <>
       <Nav />
+      <CreateUserForm />
       <IndexHeader />
       <UserReviews />
       <LatestPostsSection />
