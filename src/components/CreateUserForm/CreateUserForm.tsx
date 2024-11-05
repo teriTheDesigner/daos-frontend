@@ -14,16 +14,16 @@ export default function CreateUserForm() {
     e.preventDefault();
 
     const user = {
-      name: name, // Match with the backend schema
+      name: name,
       email: email,
       password: password,
     };
 
-    console.log("user info", user); // Logging user info
+    console.log("user info", user);
 
     const result = await saveUser(user);
     if (result.error) {
-      console.error(result.error); // Log error from the backend
+      console.error(result.error);
     }
   };
 
@@ -40,12 +40,12 @@ export default function CreateUserForm() {
 
       const json = await response.json();
       if (!response.ok) {
-        throw new Error(json.message || "Failed to create user"); // Handle error response
+        throw new Error(json.message || "Failed to create user");
       }
       return json;
     } catch (error) {
       console.error(error);
-      return { error: error.message || "An error occurred" }; // Return error for display
+      return { error: (error as Error).message || "An error occurred" };
     }
   }
 
